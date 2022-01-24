@@ -43,5 +43,6 @@ public class Shoe {
         Shoe shoe = new Shoe(2);
         shoe.shuffle();
         shoe.printShoe();
+        System.out.println(shoe.shoe.size());
     }
 }

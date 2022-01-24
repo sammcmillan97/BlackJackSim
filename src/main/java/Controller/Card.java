@@ -2,8 +2,8 @@ package Controller;
 
 public class Card {
 
-    private int suit;
-    private int value;
+    private final int suit;
+    private final int value;
 
     public Card(int suit, int value) {
         this.suit = suit;
